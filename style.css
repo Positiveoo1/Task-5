@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+nav {
+    width: 100%;
+    height: 80px;
+
+}
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    position: relative;
+    bottom: 10px;
+    color: red;
+}
+.resta {
+    color: red;
+    padding-top: 45px;
+    position: relative;
+    left: -250px;    
+}
+.collection {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.items a {
+color: red;
+margin-left: 30px;
+text-decoration: none;
+margin-top: 20px;
+
+}
+.frontbar {
+    width: 100%;
+    height: 600px;
+    background: url(./img/bacc.webp) no-repeat center/cover ;
+}
+.txt2 {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.logo1 {
+    font-size: 7rem;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 70px;
+
+}
+h2 {
+    letter-spacing: 15px;
+    color: red;
+}
+.btn {
+    width: 500px;
+    height: 120px;
+    margin: 15px 30px;
+}
+.btn button {
+    padding: 11px 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: .8s ease-in-out all;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.btn button:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+.last_ft {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.rert{
+    margin-left: 300px;
+
+}
+span i {
+    margin-left: 45px;
+    cursor: pointer;
+}
+.copyr {
+    margin-left: 20px;
+}

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    position: relative;
+    bottom: 10px;
+    color: red;
+}
+
+.resta {
+    color: red;
+    padding-top: 45px;
+    position: relative;
+    left: -250px;
+}
+
+.collection {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.items a {
+    color: red;
+    margin-left: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+.title {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.frontbar2 {
+    width: 100%;
+    height: 100%;
+    background: url(./img/cnnnnnnnnnnnnn.jpg) no-repeat center/cover;
+}
+
+.contact_num {
+    width: 350px;
+    height: 500px;
+    border: 1px solid #121212;
+    background-color: #ffff;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+}
+
+.contact_num h3 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    color: red;
+}
+
+.inp {
+    color: red;
+}
+
+.inp p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.inp select {
+    margin: 10px 40px;
+    padding: 5px 90px;
+    font-size: 20px;
+    background-color: #F9FCCC;
+    color: red;
+    border: 1px solid #F9FCCC;
+    outline: none;
+
+}
+
+.inp input {
+    margin: 10px 40px;
+    padding: 5px 60px;
+    background-color: #F9FCCC;
+    border: 1px solid #F9FCCC;
+    color: red;
+    font-size: 20px;
+
+    outline: none;
+
+
+
+}
+.inp button {
+    padding: 8px 50px;
+    background-color: red;
+    color: #ffff;
+    outline: none;
+    border: 1px solid red;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+    transition: .2s ease-in;
+}
+.inp button:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+.map {
+    width: 100%;
+    height: auto;
+    background: url(./img/Map.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+
+.last_ft {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.rert {
+    margin-left: 300px;
+
+}
+
+span i {
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.copyr {
+    margin-left: 20px;
+}
